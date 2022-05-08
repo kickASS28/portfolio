@@ -1,0 +1,11 @@
+.main_reverse {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+}
+
+.main {
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+}
