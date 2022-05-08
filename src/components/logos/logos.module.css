@@ -1,0 +1,29 @@
+.anchor {
+  text-decoration: none;
+  color: inherit;
+}
+
+.techlogo {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.techlogo p {
+  display: flex;
+  color: currentColor;
+  flex-direction: column;
+  vertical-align: middle;
+  transition: opacity 0.2s ease-in;
+}
+
+.hide {
+  opacity: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .techlogo p {
+    margin: 0;
+    margin-top: 5px;
+  }
+}
