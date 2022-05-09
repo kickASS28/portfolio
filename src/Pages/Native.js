@@ -18,7 +18,7 @@ const NativeData = () => {
   const modeCtx = useContext(ModeContext);
   const night = modeCtx.night;
   const description =
-    "Now a days a developer is not complete if he does not do plaform independent development. Native device apps are also major part of this. I love to create and work on native device apps as well. I have created apps both for Android and IOS platforms using React Native and Expo.";
+    "Nowadays a developer is not complete if he does not do platform-independent development. Native device apps are also a major part of this. I love to create and work on native device apps as well. I have created apps both for Android and IOS platforms using React Native and Expo.";
   return (
     <Fragment>
       <AnimatedText text="Native Applications" />

@@ -9,7 +9,7 @@ import Project from "../components/projects/Project";
 
 const DataScienceData = () => {
   const description =
-    "Python and Data Science has ignited my intrest many times. Ability of Data Scince to bring simplicity into complex and vague information always delights me. I have utilised basics of Statics and Probability, Web Scrapping, Exploratory Data Analysis and Data Visualization into my designs.";
+    "Python and Data Science have ignited my interest many times. The ability of Data Science to bring simplicity into complex and vague information always delights me. I have utilized the basics of Statics and Probability, Web Scraping, Exploratory Data Analysis, and Data Visualization in my designs.";
   return (
     <Fragment>
       <AnimatedText text="Python and Data Science" />

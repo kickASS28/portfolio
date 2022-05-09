@@ -7,7 +7,7 @@ import Resume from "../assets/Ashwamedh_Bahod_Resume.pdf";
 
 const ContactData = () => {
   const description =
-    "Feel free to contact me on below socials in case of any questions and concerns, I will be glad to hear from you :)";
+    "Feel free to contact me Feel free to contact me on the below socials in case of any questions and concerns, I will be glad to hear from you :)";
   return (
     <Fragment>
       <AnimatedText text="Lets be in touch!" />
@@ -21,7 +21,7 @@ const ContactData = () => {
           rel="noreferrer"
           download
         >
-          Click Here To Download My resume ➤
+          Click Here To Download My Resume ➤
         </a>
       </ProjectContainer>
     </Fragment>

@@ -17,7 +17,7 @@ const WebDevData = () => {
   const modeCtx = useContext(ModeContext);
   const night = modeCtx.night;
   const description =
-    "In Web-Developement, My focus has always been on providing best possible User Experience without any compromise with Usabality of the web-site. Skills like Ethical Hacking, UI/UX Design help me to develop and deploy more secure as well as asthetic web-sites and web-apps. In my joureny as a Full-Stack web developer I have created 20+ static as well as dynamic web applications.";
+    "In Web-Development, My focus has always been on providing the best possible User Experience without any compromise on the Usability of the website. Skills like Ethical Hacking, and UI/UX Design help me to develop and deploy more secure as well as aesthetic websites and web apps. In my journey as a Full-Stack web developer, I have created 20+ static as well as dynamic web applications.";
   return (
     <Fragment>
       <AnimatedText text="Web-Development" />

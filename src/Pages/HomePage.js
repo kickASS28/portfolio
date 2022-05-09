@@ -10,7 +10,7 @@ const HomePage = () => {
   const modeCtx = useContext(ModeContext);
   const night = modeCtx.night;
   const description =
-    "Hi there, thank you for your interest in me! The purpose of this portfolio is to highlight my development joureny and skills associated with web, native apps, and python. The projects that I am including are all but the ones that I feel best to describe my abilities in that perticular technology.";
+    "Hi there, thank you for your interest in me! The purpose of this portfolio is to highlight my development journey and skills associated with the web, native apps, and python. The projects that I am including are all but the ones that I feel best to describe my abilities in that particular technology.";
   return (
     <Fragment>
       <AnimatedText text="Welcome" />
@@ -24,7 +24,7 @@ const HomePage = () => {
           rel="noreferrer"
           download
         >
-          Click Here To Download My resume ➤
+          Click Here To Download My Resume ➤
         </a>
       </ProjectContainer>
     </Fragment>
