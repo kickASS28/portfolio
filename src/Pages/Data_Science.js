@@ -18,9 +18,9 @@ const DataScienceData = () => {
       <ProjectContainer title="Contribution">
         <ProjectReverse
           title="Positive Int"
-          description="This is my contribution to the python community. Positive Int is a sub class of Int that will always return a positive integer value for any valid algrebic operation."
+          description="This is my contribution to the python community. Positive Int is a sub-class of Int that will always return a positive integer value for any valid algebraic operation."
           vision="NA"
-          deployment="Code file can be downloaded from GitHub Repo"
+          deployment="Code files can be downloaded from GitHub Repo"
           technologies={["Python", "Python Discripters"]}
           bgc={{ backgroundColor: "gray" }}
           href="https://github.com/kickASS28/Python/"
@@ -28,7 +28,7 @@ const DataScienceData = () => {
         />
         <Project
           title="Dynamic Array"
-          description="This is implimentation of a Dynamic Array which will grow or shrink on basis of the space requirement and also allows to remove or add elements to the array."
+          description="TThis is the implementation of a Dynamic Array which will grow or shrink on basis of the space requirement and also allows to remove or add elements to the array."
           vision="NA"
           deployment="Code file can be downloaded from GitHub Repo"
           technologies={["Python", "Python Ctypes"]}
