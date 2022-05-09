@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 550px) {
   .container {
-    width: 75%;
+    width: 100%;
     margin-top: 3rem;
   }
   .container_reverse {
