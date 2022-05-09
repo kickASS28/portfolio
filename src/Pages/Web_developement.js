@@ -26,8 +26,8 @@ const WebDevData = () => {
       <ProjectContainer title="Projects">
         <ProjectReverse
           title="Chair Shop"
-          description="This is a static web site made for a dummy chair shop. The purpose is to showcase use cases and quality of their product."
-          vision="In near future, I want to link a dynamic data of actual shop with help of back-end technologies."
+          description="This is a static website made for a dummy chair shop. The purpose is to showcase the use cases and the quality of their product."
+          vision="In near future, I want to link dynamic data of actual shops with help of back-end technologies."
           deployment="This website is deployed on GitHub Pages"
           technologies={["HTML5", "CSS3", "JavaScript"]}
           mockup={Project2}
@@ -37,7 +37,7 @@ const WebDevData = () => {
         <Project
           title="Omnifood-Never Cook Again"
           description="This website was built to practice the UX concepts like Proportion, Emphasis, Contrast, White Space, etc. along with modern JavaScript syntax."
-          vision="This page is a large SPA(Single Page Application), In some scenarios MPA might be a better option. Also ther is a room for Search Engine optimization."
+          vision="This page is a large SPA(Single Page Application), In some scenarios, MPA might be a better option. Also, there is room for Search Engine optimization."
           deployment="This website is deployed on GitHub Pages"
           technologies={["HTML5", "CSS3", "JavaScript(ES6)"]}
           mockup={Project3}
@@ -46,8 +46,8 @@ const WebDevData = () => {
         />
         <ProjectReverse
           title="Kick Meals"
-          description="This a production ready food order app which is developed to impliment react into my web devlopments. App is very dynamic and flexible and can be easily adjsuted as per the restaurant's themes and manu."
-          vision="This app can be directly intigrated with a vender's menu card and order data can be received at firebase backend."
+          description="This is a production-ready food order app that is developed to implement react into my web development. The app is very dynamic and flexible and can be easily adjusted as per the restaurant's themes and menu."
+          vision="This app can be directly integrated with a vendor's menu card and order data can be received at the firebase backend."
           deployment="This web app is hosted on firebase"
           technologies={["HTML5", "CSS3", "React"]}
           mockup={Project6}
@@ -56,7 +56,7 @@ const WebDevData = () => {
         />
         <Project
           title="Great Quotes"
-          description="Being a writer I did not had pen and peper with me to write down when motivation hits me, The purpose of this app to provide writers a platform publish their quotes anytime and anywhere. Each published quote has seperate comments section, likes and share feature."
+          description="Being a writer I did not have pen and paper with me to write down when motivation hits me, The purpose of this app is to provide writers a platform to publish their quotes anytime and anywhere. Each published quote has a separate comments section, likes, and share feature."
           vision="In near future, I want to introduce another section of poems for poets as well."
           deployment="This web app is hosted on firebase"
           technologies={["HTML5", "CSS3", "React"]}
@@ -66,8 +66,8 @@ const WebDevData = () => {
         />
         <ProjectReverse
           title="Gadgets"
-          description="One App that holds many features like Calorie Tracker, BMI Calculator, Loan-Interest Calculator, Finance and Sports news and updates, Weather reports, games and much more."
-          vision="This app's UI is very finley designed. This makes the app to give great user experience on all devices."
+          description="One App that holds many features like Calorie Tracker, BMI Calculator, Loan-Interest Calculator, Finance and Sports news and updates, Weather reports, games, and much more."
+          vision="This app's UI is very finely designed. This makes the app give a great user experience on all devices."
           deployment="This is hosted on Vercel"
           technologies={["HTML5", "CSS3", "React", "Next"]}
           mockup={Project8}
@@ -80,8 +80,8 @@ const WebDevData = () => {
         />
         <Project
           title="Kick-API"
-          description="This is Full-Stack MERN app whose API created with Express and Node which responds with dummy user data, color hex codes, recipe details and much more. The use cases for the API are documented on the web using React and hosted on web for public use."
-          vision="In near future, I want to provde 3rd party authentication features through same API"
+          description="This is a Full-Stack MERN app whose API is created with Express and Node which responds with dummy user data, color hex codes, recipe details, and much more. The use cases for the API are documented on the web using React and hosted on the web for public use."
+          vision="In near future, I want to provide 3rd party authentication features through same API"
           deployment="This web app is hosted on firebase"
           technologies={["Express", "Node", "React"]}
           mockup={Project9}
