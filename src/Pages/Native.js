@@ -27,9 +27,9 @@ const NativeData = () => {
       <ProjectContainer title="Projects">
         <ProjectReverse
           title="Guess a number game"
-          description="This is a simple mobile game in which user has to select a number and computer will try to guess that number"
-          vision="Multiplayer and more choise to user"
-          deployment="apk version can be downloaded from below link"
+          description="This is a simple mobile game in which the user has to select a number and the computer will try to guess that number"
+          vision="Multiplayer and more choice for user"
+          deployment="The apk version can be downloaded from the below link"
           technologies={["JavaScript", "React Native", "Expo"]}
           bgc={{ backgroundColor: "#f7287b" }}
           href={Guess_a_number}
@@ -38,9 +38,9 @@ const NativeData = () => {
         />
         <Project
           title="Recipe book"
-          description="This was made to store different recepies, their ingredients, and steps to prepare them."
-          vision="In near future, I want add more customised experience as per user's prefrences."
-          deployment="apk version can be downloaded from below link"
+          description="This was made to store different recipes, their ingredients, and the steps to prepare them."
+          vision="In near future, I want to add a more customized experience as per the user's preferences."
+          deployment="The apk version can be downloaded from the below link"
           technologies={["JavaScript", "React Native", "Expo"]}
           bgc={{ backgroundColor: "#4a148c" }}
           href={Recipe_book}
@@ -49,9 +49,9 @@ const NativeData = () => {
         />
         <ProjectReverse
           title="GeoLocator"
-          description="This app uses native device features like camera, location, storage, etc. to provide users a platform to store their favourite locations world wide."
-          vision="In near future, I plan to publish this app on Google Play store and Apple app store."
-          deployment="apk version can be downloaded from below link"
+          description="This app uses native device features like camera, location, storage, etc. to provide users a platform to store their favorite locations worldwide."
+          vision="In near future, I plan to publish this app on the Google Play Store and Apple app store."
+          deployment="The apk version can be downloaded from the below link"
           technologies={["JavaScript", "React Native", "Expo"]}
           bgc={{ backgroundColor: "#fc9208" }}
           href={GeoLocator}
