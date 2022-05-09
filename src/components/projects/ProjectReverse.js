@@ -16,11 +16,7 @@ const ProjectReverse = (props) => {
   };
 
   return (
-    <a
-      className={classes.mainLink}
-      href={props.href}
-      onClick={appOnClickHandler}
-    >
+    <div className={classes.mainLink} onClick={appOnClickHandler}>
       <div className={`${classes.card} ${classes.card_reverse}`}>
         <div className={classes.text_container_reverse} style={props.bgc}>
           <h4 className={classes.title}>{props.title}</h4>
@@ -78,7 +74,7 @@ const ProjectReverse = (props) => {
           <img src={props.mockup} alt="project" width="100%" height="100%" />
         </div>
       </div>
-    </a>
+    </div>
   );
 };
 

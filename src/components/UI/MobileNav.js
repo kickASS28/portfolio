@@ -13,6 +13,10 @@ const MobileNav = () => {
     setMenuVisible(!menuVisible);
   };
 
+  const brandClickHandler = () => {
+    setMenuVisible(false);
+  };
+
   return (
     <header
       className={`${classes.header} ${
@@ -25,6 +29,7 @@ const MobileNav = () => {
             className={`${classes.navbar_brand} ${
               night ? classes.reverse_color_nav_brand : classes.color_nav_brand
             }`}
+            onClick={brandClickHandler}
           >
             <Link to="/home">Ashwamedh Bahod</Link>
           </div>
