@@ -28,7 +28,7 @@ const DataScienceData = () => {
         />
         <Project
           title="Dynamic Array"
-          description="TThis is the implementation of a Dynamic Array which will grow or shrink on basis of the space requirement and also allows to remove or add elements to the array."
+          description="This is the implementation of a Dynamic Array which will grow or shrink on basis of the space requirement and also allows to remove or add elements to the array."
           vision="NA"
           deployment="Code file can be downloaded from GitHub Repo"
           technologies={["Python", "Python Ctypes"]}
