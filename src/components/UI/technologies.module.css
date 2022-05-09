@@ -3,6 +3,7 @@
   text-align: center;
   overflow: hidden;
   margin: 0 auto;
+  height: fit-content;
 }
 
 .container_reverse {
@@ -86,6 +87,9 @@
   .container {
     width: 75%;
     margin-top: 3rem;
+  }
+  .container_reverse {
+    width: 100%;
   }
   .technologies {
     margin-top: 2rem;

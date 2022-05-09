@@ -1,6 +1,6 @@
 .header {
   -webkit-backdrop-filter: saturate(180%) blur(2px);
-  backdrop-filter: saturate(180%) blur(2px);
+  backdrop-filter: saturate(180%) blur(5px);
   position: -webkit-sticky;
   position: fixed;
   top: 0;
@@ -32,7 +32,6 @@
 }
 
 .navbar_brand {
-  height: 26px;
   font-size: x-large;
   font-weight: bolder;
   cursor: pointer;
@@ -197,5 +196,14 @@ input:checked + .slider:before {
 @media screen and (max-width: 450px) {
   .navbar_brand {
     font-size: large;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar_brand {
+    font-size: medium;
+  }
+  .brand_mode_container {
+    height: 55px;
   }
 }

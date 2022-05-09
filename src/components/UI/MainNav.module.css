@@ -1,6 +1,6 @@
 .header {
   -webkit-backdrop-filter: saturate(180%) blur(2px);
-  backdrop-filter: saturate(180%) blur(2px);
+  backdrop-filter: saturate(180%) blur(5px);
   position: -webkit-sticky;
   position: fixed;
   top: 0;

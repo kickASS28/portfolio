@@ -33,22 +33,20 @@ const MobileNav = () => {
           >
             <Link to="/home">Ashwamedh Bahod</Link>
           </div>
-          {menuVisible && (
-            <div className={classes.navbar_actions}>
-              <div className={classes.mode_switch}>
-                <p>{`${night ? "Night" : "Day"}`}</p>
-                <label className={classes.switch}>
-                  <input
-                    type="checkbox"
-                    onChange={() => {
-                      modeCtx.changeMode();
-                    }}
-                  />
-                  <span className={`${classes.slider} ${classes.round}`}></span>
-                </label>
-              </div>
+          <div className={classes.navbar_actions}>
+            <div className={classes.mode_switch}>
+              <p>{`${night ? "Night" : "Day"}`}</p>
+              <label className={classes.switch}>
+                <input
+                  type="checkbox"
+                  onChange={() => {
+                    modeCtx.changeMode();
+                  }}
+                />
+                <span className={`${classes.slider} ${classes.round}`}></span>
+              </label>
             </div>
-          )}
+          </div>
           <div onClick={mobileNavHideShowHandler}>
             <MenuButton night={night} />
           </div>

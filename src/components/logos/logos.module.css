@@ -25,5 +25,9 @@
   .techlogo p {
     margin: 0;
     margin-top: 5px;
+    font-size: small;
+  }
+  .hide {
+    opacity: 1;
   }
 }
