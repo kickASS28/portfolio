@@ -1,8 +1,19 @@
+.menu_button_container {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  align-items: center;
+  justify-content: center;
+}
+
 .svg {
   width: 35px;
 }
 
 @media screen and (max-width: 450px) {
+  .menu_button_container {
+    font-size: x-small;
+  }
   .svg {
     width: 25px;
   }
