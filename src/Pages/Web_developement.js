@@ -10,6 +10,7 @@ import Project6 from "../assets/Project6.png";
 import Project7 from "../assets/Project7.png";
 import Project8 from "../assets/Project8.png";
 import Project9 from "../assets/Project9.png";
+import Project10 from "../assets/Project10.png";
 import ProjectReverse from "../components/projects/ProjectReverse";
 import { useContext } from "react";
 import ModeContext from "../store/context";
@@ -91,6 +92,16 @@ const WebDevData = () => {
             backgroundSize: "400%",
           }}
           href="https://kick-api.herokuapp.com/"
+        />
+        <ProjectReverse
+          title="Quizimenia"
+          description="This app was made for the kids who are struggling with their mathematical ability to practice various mathematical operations."
+          vision="This app's is designed to persist its complex states and timers even after page refresh."
+          deployment="This is hosted on Firebase"
+          technologies={["HTML5", "CSS3", "React", "Redux"]}
+          mockup={Project10}
+          bgc={{ backgroundColor: "rgb(45, 34, 34)" }}
+          href="https://kick-math-quiz.web.app"
         />
       </ProjectContainer>
     </Fragment>
