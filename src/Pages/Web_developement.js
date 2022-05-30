@@ -11,6 +11,7 @@ import Project7 from "../assets/Project7.png";
 import Project8 from "../assets/Project8.png";
 import Project9 from "../assets/Project9.png";
 import Project10 from "../assets/Project10.png";
+import Project11 from "../assets/Project11.png";
 import ProjectReverse from "../components/projects/ProjectReverse";
 import { useContext } from "react";
 import ModeContext from "../store/context";
@@ -102,6 +103,16 @@ const WebDevData = () => {
           mockup={Project10}
           bgc={{ backgroundColor: "rgb(45, 34, 34)" }}
           href="https://kick-math-quiz.web.app"
+        />
+        <Project
+          title="Kick-Mart"
+          description="This is a React-Bootstarp e-commerce app. The app is integrated with CommerseJs API."
+          vision="In near future, I want update some actual products over the app and try to advertise them."
+          deployment="This web app is hosted on firebase"
+          technologies={["Bootstarp", "Redux", "React"]}
+          mockup={Project11}
+          bgc={{ backgroundColor: "#212529" }}
+          href="https://kick-mart.web.app/"
         />
       </ProjectContainer>
     </Fragment>
